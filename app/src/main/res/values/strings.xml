@@ -5,6 +5,17 @@
     <string name="login_ipt_password">Contraseña</string>
     <string name="login_btn_submit">Ingresar</string>
     <string name="txt_inicio_login">Bienvenido</string>
+    <string name="login_msg_loading">Iniciando sesión...</string>
+    <string name="login_msg_username_empty">Campo de usuario vacio</string>
+    <string name="login_msg_password_empty">Campo de contraseña vacia</string>
+    <string name="api_dlg_error_msg_http">Respuesta satisfactoria</string>
+    <string name="api_dlg_error_msg_empty">Error vacio</string>
+    <string name="api_dlg_error_msg_rest">Campo no vacio</string>
+    <string name="login_dlg_offline_title">Inicio de sesión OFFLINE</string>
+    <string name="login_dlg_error_msg_not_found">Usuario no encontrado</string>
+    <string name="login_dlg_offline_msg">Se iniciará sesión en modo OFFLINE</string>
+    <string name="login_dlg_error_title">Usuario no encontrado</string>
+
 </resources>
 
 
