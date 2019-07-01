@@ -11,11 +11,19 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/txt_inicio_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/txt_inicio_login"
+            android:textSize="36sp" />
+
         <EditText
             android:id="@+id/login_ipt_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="250dp"
             android:ems="10"
             android:hint="@string/login_ipt_username"
             android:inputType="textPersonName"
