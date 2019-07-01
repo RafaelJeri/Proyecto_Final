@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
         mUsername = findViewById(R.id.login_ipt_username);
         mPassword = findViewById(R.id.login_ipt_password);
         mSubmit = findViewById(R.id.login_btn_submit);
-
+        mPresenter = new LoginPresenter(this);
         initButtons();
     }
 
