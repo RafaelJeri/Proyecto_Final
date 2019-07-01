@@ -1,10 +1,12 @@
-package pe.edu.pucp.a20121663.aplicacionfinal;
+package pe.edu.pucp.a20121663.aplicacionfinal.features.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import pe.edu.pucp.a20121663.aplicacionfinal.R;
+
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
