@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Aplicacion Final</string>
     <!-- Inicio de sesión -->
-    <string name="login_txt_title">Inicio de sesión</string>
+    <string name="login_txt_title">Iniciar Sesión</string>
     <string name="login_ipt_username">Nombre de usuario</string>
     <string name="login_ipt_password">Contraseña</string>
     <string name="login_btn_submit">Ingresar</string>
