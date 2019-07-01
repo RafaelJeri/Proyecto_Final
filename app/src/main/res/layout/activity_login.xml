@@ -12,25 +12,32 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/login_ipt_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:ems="10"
+            android:hint="@string/login_ipt_username"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:padding="16dp" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/login_ipt_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
             android:ems="10"
-            android:inputType="textPassword" />
+            android:hint="@string/login_ipt_password"
+            android:inputType="textPassword"
+            android:padding="16dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/login_btn_submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="Button" />
+            android:text="Button"
+            tools:text="@string/login_btn_submit" />
     </LinearLayout>
 </ScrollView>
