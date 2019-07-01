@@ -34,7 +34,19 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
         mUsername = findViewById(R.id.login_ipt_username);
         mPassword = findViewById(R.id.login_ipt_password);
         mSubmit = findViewById(R.id.login_btn_submit);
+
+        initButtons();
     }
+
+    private void initButtons() {
+        mSubmit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                login(v);
+            }
+        });
+    }
+
 
     public void login(View v) {
         // Esconder el teclado
@@ -87,7 +99,6 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
                 .show();
     }
 
-
     @Override
     public Context getContext() {
         return this;
@@ -97,5 +108,7 @@ public class LoginActivity extends AppCompatActivity implements ILoginView {
         mPresenter.onDestroy();
         super.onDestroy();
     }
+
+
 }
 
