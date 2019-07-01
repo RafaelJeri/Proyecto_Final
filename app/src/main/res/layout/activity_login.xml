@@ -31,7 +31,7 @@
             android:layout_marginRight="90dp"
             android:background="#9AFFFFFF"
             android:padding="50dp"
-            app:srcCompat="@mipmap/ic_launcher_round" />
+            app:srcCompat="@android:drawable/btn_star_big_on" />
 
         <EditText
             android:id="@+id/login_ipt_username"
