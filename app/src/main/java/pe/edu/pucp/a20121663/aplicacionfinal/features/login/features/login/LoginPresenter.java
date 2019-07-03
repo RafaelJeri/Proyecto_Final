@@ -64,6 +64,7 @@ public class LoginPresenter implements ILoginPresenter {
         Pair<UserOutRO, String> result = validateResponse(response);
         if (result.first == null) {
             // Mostrar mensaje de error
+            Utilities.showMessage(view.getContext(),TAG);
             view.showErrorDialog(result.second);
         } else {
             // Obtener el objeto JSON

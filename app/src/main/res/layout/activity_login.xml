@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo_gradiente"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".features.login.features.login.LoginActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/txt_inicio_login"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="@string/login_txt_title"
-            android:textAlignment="center"
-            android:textColor="#FFFFFF"
-            android:textSize="36sp" />
+            android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="90dp"
-            android:layout_marginTop="50dp"
-            android:layout_marginRight="90dp"
-            android:background="#9AFFFFFF"
-            android:padding="50dp"
-            app:srcCompat="@android:drawable/btn_star_big_on" />
+            <TextView
+                android:id="@+id/txt_inicio_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/login_txt_title"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp" />
 
-        <EditText
-            android:id="@+id/login_ipt_username"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="80dp"
-            android:layout_marginRight="20dp"
-            android:background="#40FFFFFF"
-            android:ems="10"
-            android:hint="@string/login_ipt_username"
-            android:inputType="textPersonName"
-            android:padding="16dp" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="32dp"
+                android:background="#9AFFFFFF"
+                android:foregroundGravity="center_vertical"
+                android:padding="50dp"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
 
-        <EditText
-            android:id="@+id/login_ipt_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="16dp"
-            android:background="#40FFFFFF"
-            android:ems="10"
-            android:hint="@string/login_ipt_password"
-            android:inputType="textPassword"
-            android:padding="16dp" />
+            <EditText
+                android:id="@+id/login_ipt_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="#40FFFFFF"
+                android:ems="10"
+                android:hint="@string/login_ipt_username"
+                android:inputType="textPersonName"
+                android:padding="16dp" />
 
-        <Button
-            android:id="@+id/login_btn_submit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="16dp"
-            android:padding="16dp"
-            android:text="@string/login_btn_submit" />
-    </LinearLayout>
-</ScrollView>
+            <EditText
+                android:id="@+id/login_ipt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="#40FFFFFF"
+                android:ems="10"
+                android:hint="@string/login_ipt_password"
+                android:inputType="textPassword"
+                android:padding="16dp" />
+
+            <Button
+                android:id="@+id/login_btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:padding="16dp"
+                android:text="@string/login_btn_submit" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -10,7 +10,7 @@ public class ApiAdapter {
 
     public static final String APPLICATION_NAME = " REG_INVENTARIO";
 
-    private static final String BASE_URL = "https://demo1928384.mockable.io/dispositivos-moviles-rest/proyecto";
+    private static final String BASE_URL = "https://demo9392381.mockable.io/my-first-login-rest/remote/";
     //https://demo1928384.mockable.io/dispositivos-moviles-rest/proyecto
 
     private static final int TIMEOUT = 90; // tiempo en segundos
