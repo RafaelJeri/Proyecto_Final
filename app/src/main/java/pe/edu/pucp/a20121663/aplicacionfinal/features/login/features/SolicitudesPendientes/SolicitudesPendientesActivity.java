@@ -1,4 +1,4 @@
-package pe.edu.pucp.a20121663.aplicacionfinal.features.login.features;
+package pe.edu.pucp.a20121663.aplicacionfinal.features.login.features.SolicitudesPendientes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import pe.edu.pucp.a20121663.aplicacionfinal.R;
 
-public class solicitudesPendientes extends AppCompatActivity {
+public class SolicitudesPendientesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

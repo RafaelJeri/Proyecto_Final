@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".features.login.features.solicitudesPendientes"></activity>
+        <activity android:name=".features.login.features.SolicitudesPendientes.SolicitudesPendientesActivity"></activity>
         <activity android:name=".features.login.features.ver_detalle.ver_detalleActivity" />
         <activity android:name=".features.login.features.home.HomeActivity" />
         <activity android:name=".features.login.features.login.LoginActivity">

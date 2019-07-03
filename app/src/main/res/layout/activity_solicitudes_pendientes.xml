@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo_gradiente"
-    tools:context=".features.login.features.solicitudesPendientes">
+    tools:context=".features.login.features.SolicitudesPendientes.SolicitudesPendientesActivity">
 
     <EditText
         android:id="@+id/editText"
