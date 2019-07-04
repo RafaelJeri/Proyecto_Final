@@ -20,7 +20,7 @@ public class LoginInRO extends BaseInRO {
         this.username = username;
         this.password = password;
     }
-
+//Prueba
     public String getUsername() {
         return username;
     }
