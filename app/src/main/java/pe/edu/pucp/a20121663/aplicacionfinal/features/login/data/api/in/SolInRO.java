@@ -6,26 +6,22 @@ import com.fasterxml.jackson.annotation.JsonRootName;
 
 import pe.edu.pucp.a20121663.aplicacionfinal.features.login.data.api.base.BaseInRO;
 
-@JsonRootName("loginInRO")
-public class LoginInRO extends BaseInRO {
+@JsonRootName("solInRO")
+public class SolInRO extends BaseInRO {
+    //solicitudes
 
     private String username;
-    private String password;
 
     @JsonCreator
-    public LoginInRO(@JsonProperty("applicationName") String applicationName,
-                     @JsonProperty("username") String username,
-                     @JsonProperty("password") String password) {
+    public SolInRO(@JsonProperty("applicationName") String applicationName,
+                     @JsonProperty("username") String username) {
         super(applicationName);
         this.username = username;
-        this.password = password;
+
     }
 
     public String getUsername() {
         return username;
     }
 
-    public String getPassword() {
-        return password;
-    }
 }

@@ -13,6 +13,8 @@ public class UserOutRO extends BaseOutRO {
     private String fullName;
     private String email;
 
+
+
     @JsonCreator
     public UserOutRO(@JsonProperty("errorCode") int errorCode,
                      @JsonProperty("message") String message,
@@ -24,6 +26,8 @@ public class UserOutRO extends BaseOutRO {
         this.fullName = fullName;
         this.email = email;
     }
+
+
 
     public int getUserId() {
         return userId;
