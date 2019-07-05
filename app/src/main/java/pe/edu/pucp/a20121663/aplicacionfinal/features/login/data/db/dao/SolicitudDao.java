@@ -12,7 +12,7 @@ import pe.edu.pucp.a20121663.aplicacionfinal.features.login.data.db.entities.Sol
 public interface SolicitudDao {
 
     @Query("SELECT * FROM SOLICITUD WHERE SOLICITUD_ID = :solicitud_id LIMIT 1")
-    Solicitud findById(int solicitud_id);
+    Solicitud findByIdSolicitud(int solicitud_id);
 
     @Insert
     void insert(Solicitud solicitud);
